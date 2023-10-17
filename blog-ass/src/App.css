@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+} */
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.fluid-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: auto;
+  padding: 30px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.card {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.fluid-container.blogList {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.fluid-container.blogList div {
+  text-align: center;
+  margin: 10px;
+}
+
+.button-container button {
+  margin: 10px;
+}
